@@ -6,3 +6,21 @@
     font-family: monospace;
     padding: 10px;
 }
+
+.header-title-div {
+    width: 20%;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+    border-radius: 4px;
+    display: inline-block;
+    border-right: 4px solid grey;
+}
+
+.header-children-div {
+    font-size: 30px;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
