@@ -39,7 +39,7 @@ jobs:
           node-version: "20.x"
       - name: Setup Yarn
         run:
-          yarn add gh_pages
+          yarn add gh-pages
           yarn install
       - name: Build
         run:
