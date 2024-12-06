@@ -7,7 +7,8 @@ const motds = [
     <>first commit</>,
     "f'{motd}'",
     <>You do <i>not</i> want to know what is hosting this</>,
-    <>Addblock is unnecessary (but spell-check is advised)</>
+    <>Addblock is unnecessary (but spell-check is advised)</>,
+    <>Welcome to developer hell</>
 ]
 
 function choice(l) {

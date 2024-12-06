@@ -2,7 +2,14 @@ import Article from "./Article";
 
 const content = (
 <>
-DNS content!
+Once again, it's in the name:
+<ul>
+    <li>(D)omain</li>
+    <li>(N)ame</li>
+    <li>(S)ervice</li>
+</ul>
+
+//TODO
 </>
 )
 

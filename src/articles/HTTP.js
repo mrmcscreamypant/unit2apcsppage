@@ -15,7 +15,7 @@ It's literally in the name:
 </ul>
 
 And <a href="https://xkcd.com/2634/"> unless you are using a site from 2010</a>,
-there is generally a "S" taked on the end for "Secure".
+there is generally a "S" tacked on the end for "Secure".
 <br></br><br></br>
 Https can transfer other things than just HTML (the hyper text in question),
 including images, audio, video, JSON, and raw files. It basically just sends files.
