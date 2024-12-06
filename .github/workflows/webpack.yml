@@ -43,11 +43,13 @@ jobs:
       - name: Build
         run:
           yarn build
+          ls
+          ls build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './build/'
+          path: './build'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
