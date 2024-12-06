@@ -26,5 +26,11 @@ jobs:
       run: |
         yarn install
         yarn build
-        yarn global add serve
-        serve -s build
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+      with:
+        # Upload entire repository
+        path: './build'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
