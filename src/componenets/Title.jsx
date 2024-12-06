@@ -6,7 +6,9 @@ const motds = [
     <>Screw you, npm</>,
     <>first commit</>,
     "f'{motd}'",
-    <>You do <i>not</i> want to know what is hosting this</>
+    <>You do <i>not</i> want to know what is hosting this</>,
+    <>Addblock is unnecessary (but spell-check is advised)</>,
+    <>Welcome to developer hell</>
 ]
 
 function choice(l) {
@@ -16,9 +18,9 @@ function choice(l) {
 export default function Title() {
     const motd = choice(motds)
     return (
-        <>
+        <a href="/" class="nav-a">
         <div class="title-div">AAN</div>
         <div class="subtitle-div">{motd}</div>
-        </>
+        </a>
     )
 }

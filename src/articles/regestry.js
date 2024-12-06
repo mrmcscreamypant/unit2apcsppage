@@ -1,9 +1,11 @@
-import HTMLArticle from "./HTML";
+import DNSArticle from "./DNS";
 import HTTPArticle from "./HTTP";
+import TCPUDPArticle from "./TCPUDP";
 
 const articleRegestry = [
-    new HTMLArticle(),
-    new HTTPArticle()
+    new HTTPArticle(),
+    new DNSArticle(),
+    new TCPUDPArticle(),
 ]
 
 export default articleRegestry;
