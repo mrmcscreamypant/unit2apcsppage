@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import './Title.css'
 
 const motds = [
@@ -18,9 +19,9 @@ function choice(l) {
 export default function Title() {
     const motd = choice(motds)
     return (
-        <a href="/" class="nav-a">
-        <div class="title-div">AAN</div>
-        <div class="subtitle-div">{motd}</div>
-        </a>
+        <Link to="/" class="nav-a">
+            <div class="title-div">AAN</div>
+            <div class="subtitle-div">{motd}</div>
+        </Link>
     )
 }

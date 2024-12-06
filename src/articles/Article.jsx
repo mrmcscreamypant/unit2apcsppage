@@ -1,15 +1,17 @@
 import "./Article.css"
 
+import { Link } from "react-router"
+
 import Header from '../componenets/Header'
 
 function Banner({title,path,children}) {
     return (
-        <a href={path} class="banner-a nav-a">
+        <Link to={path} class="banner-a nav-a">
             <div class="banner-title-div">
                 {title}
             </div>
             {children}
-        </a>
+        </Link>
     )
 }
 
