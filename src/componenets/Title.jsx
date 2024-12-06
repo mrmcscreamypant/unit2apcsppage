@@ -1,5 +1,6 @@
-import { Link } from 'react-router'
 import './Title.css'
+
+import Nav from './Nav'
 
 const motds = [
     <>This looks like it was made in the 90's (yet uses modern web tech)</>,
@@ -20,9 +21,9 @@ function choice(l) {
 export default function Title() {
     const motd = choice(motds)
     return (
-        <Link to="/" class="nav-a">
+        <Nav to="/" css_class="nav-a">
             <div class="title-div">AAN</div>
             <div class="subtitle-div">{motd}</div>
-        </Link>
+        </Nav>
     )
 }
