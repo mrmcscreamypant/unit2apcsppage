@@ -1,7 +1,9 @@
 import HTMLArticle from "./HTML";
+import HTTPArticle from "./HTTP";
 
 const articleRegestry = [
-    HTMLArticle
+    new HTMLArticle(),
+    new HTTPArticle()
 ]
 
-export default articleRegestry
+export default articleRegestry;

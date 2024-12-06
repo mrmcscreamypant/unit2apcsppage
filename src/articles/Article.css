@@ -1,0 +1,16 @@
+.banner-a {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.banner-title-div {
+    font-size: 50px;
+    color: white;
+}

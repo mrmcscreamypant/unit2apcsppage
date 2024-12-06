@@ -1,31 +1,35 @@
+import "./Article.css"
+
 import Header from '../componenets/Header'
 
-function Banner({title,children}) {
+function Banner({title,path,children}) {
     return (
-        <div class="banner-div">
+        <a href={path} class="banner-a">
             <div class="banner-title-div">
                 {title}
             </div>
             {children}
-        </div>
+        </a>
     )
 }
 
 export default class Article {
-    constructor(title,content) {
+    constructor(title,desc,content,slug) {
         this.title = title
+        this.desc = desc
         this.content = content
+        this.id = slug
     }
 
-    banner() {
+    Banner({self}) {
         return (
-            <Banner title={this.title}>
-                {this.content}
+            <Banner title={self.title} path={self.id}>
+                {self.desc}
             </Banner>
         )
     }
 
-    full_page() {
+    FullPage() {
         return (
             <>
                 <Header>{this.title}</Header>
