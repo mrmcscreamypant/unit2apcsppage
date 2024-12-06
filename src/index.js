@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route} from "react-router";
 
 import App from "./pages/App";
 import Four0Four from "./pages/404";

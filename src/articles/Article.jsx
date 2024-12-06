@@ -5,7 +5,7 @@ import Nav from "../componenets/Nav"
 
 function Banner({title,path,children}) {
     return (
-        <Nav to={path} css_class="banner-a nav-a">
+        <Nav to={path} className="banner-a nav-a">
             <div class="banner-title-div">
                 {title}
             </div>

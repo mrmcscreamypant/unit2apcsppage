@@ -21,7 +21,7 @@ function choice(l) {
 export default function Title() {
     const motd = choice(motds)
     return (
-        <Nav to="/" css_class="nav-a">
+        <Nav to="/" className="nav-a">
             <div class="title-div">AAN</div>
             <div class="subtitle-div">{motd}</div>
         </Nav>
