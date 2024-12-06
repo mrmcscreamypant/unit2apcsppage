@@ -24,5 +24,7 @@ jobs:
 
     - name: Build
       run: |
-        npm install
-        npx webpack
+        yarn install
+        yarn build
+        yarn global add serve
+        serve -s build
