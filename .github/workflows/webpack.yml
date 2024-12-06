@@ -40,7 +40,7 @@ jobs:
       - name: Setup Yarn
         run:
           yarn install
-          yarn add gh_pages
+          yarn install gh_pages
       - name: Build
         run:
           yarn deploy
