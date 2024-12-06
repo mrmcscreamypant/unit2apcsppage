@@ -43,9 +43,7 @@ jobs:
           yarn add gh_pages
       - name: Build
         run:
-          yarn build
-          ls
-          ls build
+          yarn deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
