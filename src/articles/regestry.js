@@ -1,8 +1,8 @@
-import HTMLArticle from "./HTML";
+import DNSArticle from "./DNS";
 import HTTPArticle from "./HTTP";
 
 const articleRegestry = [
-    new HTMLArticle(),
+    new DNSArticle(),
     new HTTPArticle()
 ]
 
