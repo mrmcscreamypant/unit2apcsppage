@@ -29,11 +29,11 @@ export default class Article {
         )
     }
 
-    FullPage() {
+    FullPage({self}) {
         return (
             <>
-                <Header>{this.title}</Header>
-                {this.content}
+                <Header>{self.title}</Header>
+                {self.content}
             </>
         )
     }
