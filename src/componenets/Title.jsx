@@ -1,11 +1,12 @@
 import './Title.css'
 
 const motds = [
-    "This looks like it was made in the 90's (yet uses modern web tech)",
-    "(A)ll (A)bout (N)etworking",
-    "Screw you, npm",
-    "first commit",
-    "f'{motd}'"
+    <>This looks like it was made in the 90's (yet uses modern web tech)</>,
+    <>(A)ll (A)bout (N)etworking</>,
+    <>Screw you, npm</>,
+    <>first commit</>,
+    "f'{motd}'",
+    <>You do <i>not</i> want to know what is hosting this</>
 ]
 
 function choice(l) {
