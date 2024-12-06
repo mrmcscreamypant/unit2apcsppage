@@ -43,6 +43,8 @@ jobs:
           yarn install
       - name: Build
         run:
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
           yarn deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
