@@ -38,7 +38,7 @@ export default class TCPUDPArticle extends Article {
     constructor() {
         super(
             "TCP/UDP",
-            <>There's three ways to do things; the right way, the wrong way and the Max Power way.</>,
+            <>There's three ways to do things; the right way, the wrong way, and the Max Power way.</>,
             content,
             "tcpudp-article"
         )
