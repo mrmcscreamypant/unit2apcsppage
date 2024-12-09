@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@14islands/react-page-transitions@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@14islands/react-page-transitions/-/react-page-transitions-1.3.1.tgz#b5efc18148d453d54f3253128081b30e16106a0a"
+  integrity sha512-NZVde2Z9LmmjNHzvgm0U3gsfC1awqrNqQcJA7O25D7TzfSO4qvnu9x8+LXutBl/pdbvuZO+cvJRo6429/VtTTA==
+  dependencies:
+    react-transition-group "^4.4.5"
+    zustand "^3.7.2"
+
 "@adobe/css-tools@^4.4.0":
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.4.1.tgz#2447a230bfe072c1659e6815129c03cf170710e3"
@@ -9877,3 +9885,8 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zustand@^3.7.2:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-3.7.2.tgz#7b44c4f4a5bfd7a8296a3957b13e1c346f42514d"
+  integrity sha512-PIJDIZKtokhof+9+60cpockVOq05sJzHCriyvaLBmEJixseQ1a5Kdov6fWZfWOu5SK9c+FhH1jU0tntLxRJYMA==
