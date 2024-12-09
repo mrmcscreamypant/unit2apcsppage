@@ -18,7 +18,7 @@ through the medium.<br></br>
 <br></br>
 Fun fact: I was planning to host this on a Raspberry Pi through a reverse proxy 
 service. I switched to Github Pages for a couple reasons, but the "Physical Medium" 
-can even be simulated by computers.
+can even be simulated by computers (thats what a VPN (a fancy name for a proxy) is).
 </>
 )
 

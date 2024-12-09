@@ -31,9 +31,6 @@ If TCP is the postal service, UDP is a fleet of poorly-trained carrier pigeons. 
 packets at the recipient and hope that most of them make it. Compared to TCP, however, it is <i>fast</i>. 
 Often used in situations where loss of data does not matter, such as video or audio where the 
 thing that processes it is a human, which can (mostly) understand damaged information.
-<br></br>
-<br></br>
-<br></br>
 </>
 )
 
@@ -41,7 +38,7 @@ export default class TCPUDPArticle extends Article {
     constructor() {
         super(
             "TCP/UDP",
-            <>Sending packets</>,
+            <>There's three ways to do things; the right way, the wrong way and the Max Power way.</>,
             content,
             "tcpudp-article"
         )
