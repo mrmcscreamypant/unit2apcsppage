@@ -35,7 +35,7 @@ export default class Article {
         this.title = title
         this.desc = desc
         this.content = content
-        this.id = slug
+        this.id = `${slug}`
     }
 
     Banner({self}) {
