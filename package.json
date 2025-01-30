@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://mrmcscreamypant.github.io/unit2apcsppage/",
   "dependencies": {
+    "@14islands/react-page-transitions": "^1.3.1",
     "@testing-library/jest-dom": "^5.1s7.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
